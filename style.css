@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    #0b0f5f 0%,
+    #4c1dff 50%,
+    #ff3ec9 100%
+  );
+  font-family: 'Roboto',sans-serif;
+}
+h1{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+/* Navbar Styling */
+nav {
+  background: rgba(8, 12, 70, 0.9);
+  backdrop-filter: blur(10px);
+   color: white; 
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 18px;
+
+}
+.search-container input,button{
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-container input::after{
+     border:2px solid #e11d9b ;
+}
+
+
+.search-container input{
+    border-radius: 3px 0 0 3px;
+}
+.search-container button{
+    border-radius:  0 3px 3px 0;
+     background:#ff3ec9; ;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+}
+.search-container button:hover{
+    background: #e11d9b;
+
+
+}
+
+/* Main movie Section Styling */
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-block: 38px;
+}
+.logo{
+    display: flex;
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height:72vh;
+}
+
+
+.movie-container{
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 80%;
+    border-radius: 5px;
+    color: black;
+    justify-content: center;
+}
+/* .movie-container.noBackground{
+     background: none;
+     box-shadow: none;
+} */
+
+.movie-poster img{
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 5px 0 0 5px;
+}
+.movie-info{
+    padding-inline: 15px;
+}
+.movie-info h2{
+   text-align: center;
+   font-size: 32px;
+   margin: 20px 0 12px 0;
+}
+.movie-info h2+p{
+    text-align: center;
+}
+.movie-info .movie-genre{
+    display: flex;
+    justify-content: center;
+    margin-block: 5px;
+}
+.movie-info .movie-genre p{
+    background: #232f32;
+    color: #fff;
+    padding: 5px 14px;
+    margin-inline: 5px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    font-weight: 700;
+
+}
+
+.movie-info p{
+    font-size: 18px;
+    margin-block: 16px;
+    line-height:24px;
+}
+
+/* footer section */
+
+footer {
+  background: rgba(8, 12, 70, 0.8);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding-block:20px ;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+
