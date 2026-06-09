@@ -55,19 +55,16 @@ MovieVault/
 ├── index.html
 ├── style.css
 ├── script.js
+|
+
+|__assets/screenshorts
+
 └── README.md
 
 🌐 API Used
 
 OMDb API - https://www.omdbapi.com/
 
-🎯 Future Improvements
-
-- Add loading spinner
-- Add error handling
-- Save favorite movies
-- Dark/Light mode toggle
-- Movie recommendations
 
 👨‍💻 Developed By
 
