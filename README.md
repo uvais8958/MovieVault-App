@@ -6,6 +6,10 @@ MovieVault is a responsive movie search web application built using HTML, CSS, a
              
            --08/06/2026   
 
+   ## Live Demo
+
+           https://github.com/uvais8958/movievault.git        
+
 🚀 Features
 
 - Search movies by title
@@ -23,17 +27,22 @@ MovieVault is a responsive movie search web application built using HTML, CSS, a
 - OMDb API
 
 📸 Screenshots
-
-![Home-Page](assets/screenshorts/homePage.jpeg);
-![Seacrh-Movie](assets/screenshorts/searchMove.jpeg)
-![search-Movie](assets.screenshorts.searchMovie.jpeg)
+![Home-page](assets/screenshorts/homePage.jpeg)
+![Search-Movie](assets/screenshorts/searchMoveWithoutStyling.jpeg)
+![Movie-card](assets/screenshorts/searchMovie%20(1).jpeg)
+![Movie-card](assets/screenshorts/searchMovie%20(2).jpeg)
+![Movie-card](assets/screenshorts/searchMovieCard.jpeg)
+![Responsive](assets/screenshorts/responsive.jpeg)
+![responsive](assets/screenshorts/responsive2.jpeg)
+![Nosearch](assets/screenshorts/withoutSearch.jpeg)
+![wrongEnter](assets/screenshorts/wrongEnter.jpeg)
 
                                          
 🔧 Installation
 
 1. Clone the repository:
    
-   git clone https://github.com/your-username/movievault.git
+   git clone https://github.com/uvais8958/movievault.git
 
 2. Open the project folder.
 

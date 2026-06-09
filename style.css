@@ -92,10 +92,11 @@ main section{
     color: black;
     justify-content: center;
 }
-/* .movie-container.noBackground{
+.movie-container.noBackground{
      background: none;
      box-shadow: none;
-} */
+     align-items: center;
+}
 
 .movie-poster img{
     height: 450px;
@@ -117,6 +118,7 @@ main section{
     display: flex;
     justify-content: center;
     margin-block: 5px;
+    overflow-X: auto;
 }
 .movie-info .movie-genre p{
     background: #232f32;
@@ -126,7 +128,6 @@ main section{
     border: 2px solid #000;
     border-radius: 6px;
     font-weight: 700;
-
 }
 
 .movie-info p{
@@ -149,3 +150,28 @@ footer {
 }
 
 
+/* Responsive code */
+@media screen and (max-width:950px){
+            .movie-container{
+                flex-direction: column;
+            }
+            .movie-poster img{
+                width: 100%;
+                height: fit-content;
+                margin-right: 0;
+            }
+            .movie-info{
+                padding-inline:30px ;
+            }
+}
+
+@media screen and (max-width:630px){
+            .navbar{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .search-container{
+                margin-top: 12px;
+            }
+}
