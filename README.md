@@ -6,9 +6,9 @@ MovieVault is a responsive movie search web application built using HTML, CSS, a
              
            --08/06/2026   
 
-   ## Live Demo
+   ## Live Demo=>   https://github.com/uvais8958/movievault.git   
 
-           https://github.com/uvais8958/movievault.git        
+              
 
 🚀 Features
 
